@@ -1,2 +1,3 @@
 # x86-linear-congruential-generation
-generate random numbers with "linear congruential generation" method
+
+One of the methods used to generate random numbers is the "linear congruential generation" method. In this method, the next random number (x (t + 1)) is compared to the previous random number (xt). x (t + 1) = (a⋅xt + c) (mod m) It is calculated according to the formula. The value of x0 is named as seed. You are asked to generate a random number between 0-255 with the method given for m = 8191, a = 884 and c = 1 values. Write the code that produces a random number in assembly language as a complete EXE program, accepting the number you will read from the 23 offset in the code segment as seed. Define m, a and c values appropriately in the data segment, keep the generated random number in the data segment again.
